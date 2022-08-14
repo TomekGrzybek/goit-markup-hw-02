@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,18 +13,148 @@
     <title>Tomasz Grzybowski Homework</title>
   </head>
   <body id="portfolio-page">
-    <header>
-      <a href="LINK" target="_blank">Web<span>Studio</span></a>
-      <nav>
-        <ul>
-          <li>Agencja</li>
-          <li>Portfolio</li>
-          <li>Kontakt</li>
+    <header class="top-header">
+      <a class="webstudio" href="./index.html">
+        <span class="web">Web</span><span class="studio">Studio</span>
+      </a>
+      <nav class="menu">
+        <ul class="navigation">
+          <li>
+            <a class="navigation-link nav-list-1" href="./index.html"
+              >Agencja</a
+            >
+          </li>
+          <li>
+            <a class="navigation-current nav-list-2" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a class="navigation-link nav-list-3" href="./kontakt.html"
+              >Kontakt</a
+            >
+          </li>
         </ul>
       </nav>
-
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <a class="contact-mail-1" href="mailto:info@devstudio.com"
+        >info@devstudio.com</a
+      >
+      <a class="contact-phone-1" href="tel:+48111111111">+48 111 111 111</a>
     </header>
+    <div class="portfolio-stripe"></div>
+    <main>
+      <ul class="portfolio-buttons-list">
+        <li>
+          <button class="portfolio-buttons-1" type="button">Wszystkie</button>
+        </li>
+        <li>
+          <button class="portfolio-buttons-2" type="button">Strony</button>
+        </li>
+        <li>
+          <button class="portfolio-buttons-3" type="button">Aplikacje</button>
+        </li>
+        <li>
+          <button class="portfolio-buttons-4" type="button">Dizajn</button>
+        </li>
+        <li>
+          <button class="portfolio-buttons-5" type="button">Marketing</button>
+        </li>
+      </ul>
+
+      <ul class="portfolio-items-list">
+        <li class="portfolio-img-1">
+          <img
+            src="./portfolio-images/portfolio-1.jpg"
+            alt="Laptop displaying employees profiles"
+          />
+          <h4 class="portfolio-name-1">Technocrack</h4>
+          <p class="portfolio-tag-1">Strona internetowa</p>
+        </li>
+        <li class="portfolio-img-2">
+          <img
+            src="./portfolio-images/portfolio-2.jpg"
+            alt="Two basketball players, one is trying to block a shot of the other"
+          />
+          <h4 class="portfolio-name-2">Grafika New Orlean vs Golden Star</h4>
+          <p class="portfolio-tag-2">Dizajn</p>
+        </li>
+        <li class="portfolio-img-3">
+          <img
+            src="./portfolio-images/portfolio-3.jpg"
+            alt="The Seafood restaurant logo with a fish in the back"
+          />
+          <h4 class="portfolio-name-3">Restauracja Seafood</h4>
+          <p class="portfolio-tag-3">Aplikacja</p>
+        </li>
+        <li class="portfolio-img-4">
+          <img
+            src="./portfolio-images/portfolio-4.jpg"
+            alt="Blach wireless headphones"
+          />
+          <h4 class="portfolio-name-4">Projekt Prime</h4>
+          <p class="portfolio-tag-4">Marketing</p>
+        </li>
+        <li class="portfolio-img-5">
+          <img
+            src="./portfolio-images/portfolio-5.jpg"
+            alt="Two boxes on a white background"
+          />
+          <h4 class="portfolio-name-5">Project Boxes</h4>
+          <p class="portfolio-tag-5">Aplikacja</p>
+        </li>
+        <li class="portfolio-img-6">
+          <img
+            src="./portfolio-images/portfolio-6.jpg"
+            alt="An Apple screen displaying a world map with a sign saying Inspiration has no borders"
+          />
+          <h4 class="portfolio-name-6">Inspiration has no Borders</h4>
+          <p class="portfolio-tag-6">Strona internetowa</p>
+        </li>
+        <li class="portfolio-img-7">
+          <img
+            src="./portfolio-images/portfolio-7.jpg"
+            alt="Limited edition of a magizne"
+          />
+          <h4 class="portfolio-name-7">Magazyn Limited Edition</h4>
+          <p class="portfolio-tag-7">Dizajn</p>
+        </li>
+        <li class="portfolio-img-8">
+          <img src="./portfolio-images/portfolio-8.jpg" alt="Label tag" />
+          <h4 class="portfolio-name-8">Projekt LAB</h4>
+          <p class="portfolio-tag-8">Marketing</p>
+        </li>
+        <li class="portfolio-img-9">
+          <img
+            src="./portfolio-images/portfolio-9.jpg"
+            alt="Laptop displaying growing business website"
+          />
+          <h4 class="portfolio-name-9">Growing Business</h4>
+          <p class="portfolio-tag-9">Aplikacja</p>
+        </li>
+      </ul>
+    </main>
+
+    <footer class="portfolio-footer">
+      <a class="webstudio-footer" href="./index.html">
+        <span class="web">Web</span>Studio
+      </a>
+      <address>
+        <ul class="portfolio-footer-list">
+          <li class="portfolio-footer-address">
+            m. Warszawa, Aleje Jerozolimskie 21
+          </li>
+          <li>
+            <a class="contact-mail-2" href="mailto:info@example.com">
+              info@example.com
+            </a>
+          </li>
+          <li>
+            <a class="contact-phone-2" href="tel:+48111111111">
+              +48 111 111 111
+            </a>
+          </li>
+        </ul>
+      </address>
+    </footer>
   </body>
 </html>

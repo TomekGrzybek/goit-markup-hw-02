@@ -3,18 +3,54 @@ body {
   color: #757575;
 }
 
-.agencja-header {
+.top-header {
+  position: absolute;
   width: 1600px;
   height: 80px;
   left: 0px;
   top: 0px;
-  background-color: red;
 }
 
-.studio-main-page {
+.agencja-h1 {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 200px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.agencja-button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 360px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .agencja-title {
+  position: absolute;
   width: 1600px;
   height: 600px;
   left: 0px;
@@ -23,6 +59,12 @@ body {
 }
 
 .webstudio {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
   font-family: "Raleway";
   font-style: normal;
   text-decoration: none;
@@ -37,25 +79,43 @@ body {
   color: #2196f3;
 }
 
-/* .studio {
-  font: "Oleo Script";
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 36px;
-  letter-spacing: 0.03em;
-} */
+.nav-list-1 {
+  position: absolute;
+  width: 53px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+
+/* Here I didn't know how to use % values so I used px */
+.nav-list-2 {
+  position: absolute;
+  width: 51px;
+  height: 16px;
+  left: 554px;
+  top: 32px;
+}
+
+.nav-list-3 {
+  position: absolute;
+  width: 51px;
+  height: 16px;
+  left: 656px;
+  top: 32px;
+}
 
 .navigation {
   list-style-type: none;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  display: inline;
 }
 
-.agencja-team {
-  background: #f5f4fa;
+.navigation > li {
+  display: inline;
 }
 
 .navigation-current {
@@ -65,8 +125,6 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
-  float: left;
-  padding-right: 46px;
 }
 
 .navigation-link {
@@ -75,25 +133,1188 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  float: left;
-  padding-right: 46px;
 
   color: #212121;
 }
 
-.contact {
+.contact-mail-1 {
   text-decoration: none;
+  color: #757575;
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
-.contact:hover {
+.contact-mail-1:hover {
   color: #2196f3;
 }
 
+.contact-mail-1:focus {
+  color: #2196f3;
+}
+
+.contact-phone-1 {
+  text-decoration: none;
+  color: #757575;
+  position: absolute;
+  width: 110px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.contact-phone-1:hover {
+  color: #2196f3;
+}
+
+.contact-phone-1:focus {
+  color: #2196f3;
+}
+
+.agencja-content-list {
+  list-style-type: none;
+}
+.agencja-content-header-1 {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 215px;
+  top: 774px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.agencja-content-p-1 {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 215px;
+  top: 800px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.agencja-content-header-2 {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 515px;
+  top: 774px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.agencja-content-p-2 {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 515px;
+  top: 800px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.agencja-content-header-3 {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 815px;
+  top: 774px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.agencja-content-p-3 {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 815px;
+  top: 800px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.agencja-content-header-4 {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  left: 1115px;
+  top: 774px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.agencja-content-p-4 {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 1115px;
+  top: 800px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.agencja-scope-header {
+  position: absolute;
+  width: 354px;
+  height: 42px;
+  left: 623px;
+  top: 969px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.agencja-scope-list {
+  list-style-type: none;
+}
+
+.agencja-scope-img1 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+}
+
+.agencja-scope-img2 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;
+}
+
+.agencja-scope-img3 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;
+}
+
+.agencja-team {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+
+  background: #f5f4fa;
+}
+
+.agencja-team-list {
+  list-style-type: none;
+}
+.agencja-team-header {
+  position: absolute;
+  width: 214px;
+  height: 42px;
+  left: 695px;
+  top: 94px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.agencja-team-img1 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 186px;
+
+  background: #ffffff;
+}
+.agencja-team-img2 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 186px;
+
+  background: #ffffff;
+}
+.agencja-team-img3 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 815px;
+  top: 186px;
+
+  background: #ffffff;
+}
+.agencja-team-img4 {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  left: 1115px;
+  top: 186px;
+
+  background: #ffffff;
+}
+
+.agencja-team-name1 {
+  position: absolute;
+  width: 72px;
+  height: 19px;
+  left: 99px;
+  top: 270px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.agencja-team-job1 {
+  position: absolute;
+  width: 130px;
+  height: 19px;
+  left: 70px;
+  top: 299px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.agencja-team-name2 {
+  position: absolute;
+  width: 72px;
+  height: 19px;
+  left: 99px;
+  top: 270px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.agencja-team-job2 {
+  position: absolute;
+  width: 130px;
+  height: 19px;
+  left: 70px;
+  top: 299px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.agencja-team-name3 {
+  position: absolute;
+  width: 72px;
+  height: 19px;
+  left: 99px;
+  top: 270px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.agencja-team-job3 {
+  position: absolute;
+  width: 130px;
+  height: 19px;
+  left: 70px;
+  top: 299px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.agencja-team-name4 {
+  position: absolute;
+  width: 72px;
+  height: 19px;
+  left: 99px;
+  top: 270px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.agencja-team-job4 {
+  position: absolute;
+  width: 130px;
+  height: 19px;
+  left: 70px;
+  top: 299px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .agencja-footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+
   background: #2f303a;
 }
 
-.test {
-  color: black;
+.webstudio-footer {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 60px;
+
   text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: white;
+}
+
+.agencja-footer-list {
+  list-style-type: none;
+}
+
+.agencja-footer-address {
+  position: absolute;
+  width: 246px;
+  height: 21px;
+  left: 215px;
+  top: 111px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.contact-mail-2 {
+  text-decoration: none;
+  color: #757575;
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 215px;
+  top: 141px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.contact-mail-2:hover {
+  color: #2196f3;
+}
+
+.contact-mail-2:focus {
+  color: #2196f3;
+}
+
+.contact-phone-2 {
+  text-decoration: none;
+  color: #757575;
+  position: absolute;
+  width: 110px;
+  height: 16px;
+  left: 215px;
+  top: 171px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.contact-phone-2:hover {
+  color: #2196f3;
+}
+
+.contact-phone-2:focus {
+  color: #2196f3;
+}
+
+.portfolio-header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
+
+.portfolio-footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+
+  background: #2f303a;
+}
+
+.portfolio-footer-list {
+  list-style-type: none;
+}
+
+.portfolio-footer-address {
+  position: absolute;
+  width: 246px;
+  height: 21px;
+  left: 215px;
+  top: 111px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.portfolio-stripe {
+  position: absolute;
+  width: 1600px;
+  height: 0px;
+  left: 0px;
+  top: 80px;
+
+  border: 1px solid #ececec;
+}
+
+.portfolio-buttons-list {
+  list-style-type: none;
+}
+
+.portfolio-buttons-1 {
+  position: absolute;
+  width: 121px;
+  height: 38px;
+  left: 510px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+
+  color: #212121;
+}
+
+.portfolio-buttons-1:hover {
+  background: #2196f3;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+
+  color: #ffffff;
+}
+
+.portfolio-buttons-1:focus {
+  background: #2196f3;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+
+  color: #ffffff;
+}
+
+.portfolio-buttons-2 {
+  position: absolute;
+  width: 93px;
+  height: 38px;
+  left: 639px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+
+  color: #212121;
+}
+
+.portfolio-buttons-2:hover {
+  background: #2196f3;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+
+  color: #ffffff;
+}
+
+.portfolio-buttons-2:focus {
+  background: #2196f3;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+
+  color: #ffffff;
+}
+.portfolio-buttons-3 {
+  position: absolute;
+  width: 114px;
+  height: 38px;
+  left: 740px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+
+  color: #212121;
+}
+
+.portfolio-buttons-3:hover {
+  background: #2196f3;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+
+  color: #ffffff;
+}
+
+.portfolio-buttons-3:focus {
+  background: #2196f3;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+
+  color: #ffffff;
+}
+.portfolio-buttons-4 {
+  position: absolute;
+  width: 91px;
+  height: 38px;
+  left: 862px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+
+  color: #212121;
+}
+
+.portfolio-buttons-4:hover {
+  background: #2196f3;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+
+  color: #ffffff;
+}
+
+.portfolio-buttons-4:focus {
+  background: #2196f3;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+
+  color: #ffffff;
+}
+.portfolio-buttons-5 {
+  position: absolute;
+  width: 121px;
+  height: 38px;
+  left: 961px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  border: none;
+
+  color: #212121;
+}
+
+.portfolio-buttons-5:hover {
+  background: #2196f3;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  border: none;
+  /* outline: 2px red; */
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.portfolio-buttons-5:focus {
+  background: #2196f3;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+
+  color: #ffffff;
+}
+
+.portfolio-items-list {
+  list-style-type: none;
+}
+
+.portfolio-img-1 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-name-1 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 24px;
+  top: 314px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.portfolio-tag-1 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 24px;
+  top: 354px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+}
+
+.portfolio-img-2 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 262px;
+
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-name-2 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 24px;
+  top: 314px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.portfolio-tag-2 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 24px;
+  top: 354px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+}
+
+.portfolio-img-3 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 262px;
+
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-name-3 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 24px;
+  top: 314px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.portfolio-tag-3 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 24px;
+  top: 354px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+}
+
+.portfolio-img-4 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 696px;
+
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-name-4 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 24px;
+  top: 314px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.portfolio-tag-4 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 24px;
+  top: 354px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+}
+
+.portfolio-img-5 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 696px;
+
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-name-5 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 24px;
+  top: 314px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.portfolio-tag-5 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 24px;
+  top: 354px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+}
+
+.portfolio-img-6 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 696px;
+
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-name-6 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 24px;
+  top: 314px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.portfolio-tag-6 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 24px;
+  top: 354px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+}
+
+.portfolio-img-7 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 1130px;
+
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-name-7 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 24px;
+  top: 314px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.portfolio-tag-7 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 24px;
+  top: 354px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+}
+
+.portfolio-img-8 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 1130px;
+
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-name-8 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 24px;
+  top: 314px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.portfolio-tag-8 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 24px;
+  top: 354px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+}
+
+.portfolio-img-9 {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 1130px;
+
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-name-9 {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 24px;
+  top: 314px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.portfolio-tag-9 {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 24px;
+  top: 354px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
 }
