@@ -1,8 +1,18 @@
-body {
-  font-family: Roboto;
-  color: #757575;
+:root {
+  --dark-font-color: #212121;
+  --company-blue: #2196f3;
+  --main-font-color: #757575;
+  --dark-background-color: #2f303a;
+  --light-background-color: #f5f4fa;
+  --list-border-color: #eeeeee;
+  --white-color: #ffffff;
+  --black-color: #000000;
 }
 
+body {
+  font-family: Roboto;
+  color: var(--main-font-color);
+}
 .top-header {
   position: absolute;
   width: 1600px;
@@ -18,13 +28,13 @@ body {
   left: 452px;
   top: 200px;
   font-weight: 900;
-  font-size: 44px;
+  font-size: 2.75em;
   line-height: 60px;
 
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .agencja-button {
@@ -34,14 +44,13 @@ body {
   left: 700px;
   top: 360px;
 
-  background: #2196f3;
+  background: var(--company-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
 
-  color: #ffffff;
+  color: var(--white-color);
   font-weight: 700;
-  font-size: 16px;
   line-height: 30px;
 
   align-items: center;
@@ -55,7 +64,7 @@ body {
   height: 600px;
   left: 0px;
   top: 80px;
-  background: #2f303a;
+  background: var(--dark-background-color);
 }
 
 .webstudio {
@@ -66,17 +75,16 @@ body {
   top: 24px;
 
   font-family: "Raleway";
-  font-style: normal;
   text-decoration: none;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 1.625em;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: black;
+  color: var(--black-color);
 }
 
 .web {
-  color: #2196f3;
+  color: var(--company-blue);
 }
 
 .nav-list-1 {
@@ -104,16 +112,6 @@ body {
   top: 32px;
 }
 
-.navigation {
-  list-style-type: none;
-  /* overflow: hidden; */
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  display: inline;
-}
-
 .navigation > li {
   display: inline;
 }
@@ -121,25 +119,25 @@ body {
 .navigation-current {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--company-blue);
 }
 
 .navigation-link {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .contact-mail-1 {
   text-decoration: none;
-  color: #757575;
+  color: var(--mian-font-color);
   position: absolute;
   width: 135px;
   height: 16px;
@@ -147,22 +145,22 @@ body {
   top: 32px;
 
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
 
 .contact-mail-1:hover {
-  color: #2196f3;
+  color: var(--company-blue);
 }
 
 .contact-mail-1:focus {
-  color: #2196f3;
+  color: var(--company-blue);
 }
 
 .contact-phone-1 {
   text-decoration: none;
-  color: #757575;
+  color: var(--mian-font-color);
   position: absolute;
   width: 110px;
   height: 16px;
@@ -170,17 +168,17 @@ body {
   top: 32px;
 
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
 
 .contact-phone-1:hover {
-  color: #2196f3;
+  color: var(--company-blue);
 }
 
 .contact-phone-1:focus {
-  color: #2196f3;
+  color: var(--company-blue);
 }
 
 .agencja-content-list {
@@ -194,12 +192,12 @@ body {
   top: 774px;
 
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 .agencja-content-p-1 {
   position: absolute;
@@ -209,7 +207,7 @@ body {
   top: 800px;
 
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 24px;
   letter-spacing: 0.03em;
 }
@@ -221,12 +219,12 @@ body {
   top: 774px;
 
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .agencja-content-p-2 {
@@ -237,7 +235,7 @@ body {
   top: 800px;
 
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 24px;
   letter-spacing: 0.03em;
 }
@@ -249,12 +247,12 @@ body {
   top: 774px;
 
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .agencja-content-p-3 {
@@ -265,7 +263,7 @@ body {
   top: 800px;
 
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 24px;
   letter-spacing: 0.03em;
 }
@@ -277,12 +275,12 @@ body {
   top: 774px;
 
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .agencja-content-p-4 {
@@ -293,7 +291,7 @@ body {
   top: 800px;
 
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 24px;
   letter-spacing: 0.03em;
 }
@@ -306,12 +304,12 @@ body {
   top: 969px;
 
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2.25em;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .agencja-scope-list {
@@ -349,7 +347,7 @@ body {
   left: 0px;
   top: 1449px;
 
-  background: #f5f4fa;
+  background: var(--light-background-color);
 }
 
 .agencja-team-list {
@@ -363,12 +361,12 @@ body {
   top: 94px;
 
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2.25em;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .agencja-team-img1 {
@@ -378,7 +376,7 @@ body {
   left: 215px;
   top: 186px;
 
-  background: #ffffff;
+  background: var(--white-color);
 }
 .agencja-team-img2 {
   position: absolute;
@@ -387,7 +385,7 @@ body {
   left: 515px;
   top: 186px;
 
-  background: #ffffff;
+  background: var(--white-color);
 }
 .agencja-team-img3 {
   position: absolute;
@@ -396,7 +394,7 @@ body {
   left: 815px;
   top: 186px;
 
-  background: #ffffff;
+  background: var(--white-color);
 }
 .agencja-team-img4 {
   position: absolute;
@@ -405,7 +403,7 @@ body {
   left: 1115px;
   top: 186px;
 
-  background: #ffffff;
+  background: var(--white-color);
 }
 
 .agencja-team-name1 {
@@ -416,13 +414,12 @@ body {
   top: 270px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 19px;
 
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .agencja-team-job1 {
@@ -433,7 +430,6 @@ body {
   top: 299px;
 
   font-weight: 400;
-  font-size: 16px;
   line-height: 19px;
 
   text-align: center;
@@ -447,13 +443,12 @@ body {
   top: 270px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 19px;
 
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .agencja-team-job2 {
@@ -464,7 +459,6 @@ body {
   top: 299px;
 
   font-weight: 400;
-  font-size: 16px;
   line-height: 19px;
 
   text-align: center;
@@ -478,13 +472,12 @@ body {
   top: 270px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 19px;
 
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .agencja-team-job3 {
@@ -495,7 +488,6 @@ body {
   top: 299px;
 
   font-weight: 400;
-  font-size: 16px;
   line-height: 19px;
 
   text-align: center;
@@ -509,13 +501,12 @@ body {
   top: 270px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 19px;
 
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .agencja-team-job4 {
@@ -526,7 +517,6 @@ body {
   top: 299px;
 
   font-weight: 400;
-  font-size: 16px;
   line-height: 19px;
 
   text-align: center;
@@ -540,7 +530,7 @@ body {
   left: 0px;
   top: 2097px;
 
-  background: #2f303a;
+  background: var(--dark-background-color);
 }
 
 .webstudio-footer {
@@ -552,10 +542,10 @@ body {
 
   text-decoration: none;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 1.625em;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: white;
+  color: var(--white-color);
 }
 
 .agencja-footer-list {
@@ -570,17 +560,17 @@ body {
   top: 111px;
 
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 24px;
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .contact-mail-2 {
   text-decoration: none;
-  color: #757575;
+  color: var(--mian-font-color);
   position: absolute;
   width: 135px;
   height: 16px;
@@ -588,22 +578,22 @@ body {
   top: 141px;
 
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
 
 .contact-mail-2:hover {
-  color: #2196f3;
+  color: var(--company-blue);
 }
 
 .contact-mail-2:focus {
-  color: #2196f3;
+  color: var(--company-blue);
 }
 
 .contact-phone-2 {
   text-decoration: none;
-  color: #757575;
+  color: var(--mian-font-color);
   position: absolute;
   width: 110px;
   height: 16px;
@@ -611,17 +601,17 @@ body {
   top: 171px;
 
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
 
 .contact-phone-2:hover {
-  color: #2196f3;
+  color: var(--company-blue);
 }
 
 .contact-phone-2:focus {
-  color: #2196f3;
+  color: var(--company-blue);
 }
 
 .portfolio-header {
@@ -639,7 +629,7 @@ body {
   left: 0px;
   top: 1628px;
 
-  background: #2f303a;
+  background: var(--dark-background-color);
 }
 
 .portfolio-footer-list {
@@ -654,12 +644,12 @@ body {
   top: 111px;
 
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875em;
   line-height: 24px;
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 .portfolio-stripe {
   position: absolute;
@@ -681,54 +671,51 @@ body {
   height: 38px;
   left: 510px;
   top: 174px;
-  background: #f5f4fa;
+  background: var(--light-background-color);
   border-radius: 4px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 26px;
 
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .portfolio-buttons-1:hover {
-  background: #2196f3;
+  background: var(--company-blue);
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 26px;
 
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .portfolio-buttons-1:focus {
-  background: #2196f3;
+  background: var(--company-blue);
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 26px;
 
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .portfolio-buttons-2 {
@@ -737,54 +724,51 @@ body {
   height: 38px;
   left: 639px;
   top: 174px;
-  background: #f5f4fa;
+  background: var(--light-background-color);
   border-radius: 4px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 26px;
 
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .portfolio-buttons-2:hover {
-  background: #2196f3;
+  background: var(--company-blue);
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 26px;
 
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .portfolio-buttons-2:focus {
-  background: #2196f3;
+  background: var(--company-blue);
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 26px;
 
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 .portfolio-buttons-3 {
   position: absolute;
@@ -792,54 +776,51 @@ body {
   height: 38px;
   left: 740px;
   top: 174px;
-  background: #f5f4fa;
+  background: var(--light-background-color);
   border-radius: 4px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 26px;
 
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .portfolio-buttons-3:hover {
-  background: #2196f3;
+  background: var(--company-blue);
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 26px;
 
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .portfolio-buttons-3:focus {
-  background: #2196f3;
+  background: var(--company-blue);
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 26px;
 
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 .portfolio-buttons-4 {
   position: absolute;
@@ -847,54 +828,51 @@ body {
   height: 38px;
   left: 862px;
   top: 174px;
-  background: #f5f4fa;
+  background: var(--light-background-color);
   border-radius: 4px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 26px;
 
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .portfolio-buttons-4:hover {
-  background: #2196f3;
+  background: var(--company-blue);
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 26px;
 
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .portfolio-buttons-4:focus {
-  background: #2196f3;
+  background: var(--company-blue);
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 26px;
 
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 .portfolio-buttons-5 {
   position: absolute;
@@ -902,11 +880,10 @@ body {
   height: 38px;
   left: 961px;
   top: 174px;
-  background: #f5f4fa;
+  background: var(--light-background-color);
   border-radius: 4px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 26px;
 
   text-align: center;
@@ -914,11 +891,11 @@ body {
 
   border: none;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .portfolio-buttons-5:hover {
-  background: #2196f3;
+  background: var(--company-blue);
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -928,31 +905,29 @@ body {
   /* outline: 2px red; */
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 26px;
 
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .portfolio-buttons-5:focus {
-  background: #2196f3;
+  background: var(--company-blue);
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
   font-weight: 500;
-  font-size: 16px;
   line-height: 26px;
 
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .portfolio-items-list {
@@ -966,7 +941,7 @@ body {
   left: 215px;
   top: 262px;
 
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--list-border-color);
 }
 
 .portfolio-name-1 {
@@ -977,12 +952,12 @@ body {
   top: 314px;
 
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 36px;
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .portfolio-tag-1 {
@@ -993,7 +968,6 @@ body {
   top: 354px;
 
   font-weight: 400;
-  font-size: 16px;
   line-height: 30px;
 
   letter-spacing: 0.03em;
@@ -1006,7 +980,7 @@ body {
   left: 615px;
   top: 262px;
 
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--list-border-color);
 }
 
 .portfolio-name-2 {
@@ -1017,12 +991,12 @@ body {
   top: 314px;
 
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 36px;
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .portfolio-tag-2 {
@@ -1033,7 +1007,6 @@ body {
   top: 354px;
 
   font-weight: 400;
-  font-size: 16px;
   line-height: 30px;
 
   letter-spacing: 0.03em;
@@ -1046,7 +1019,7 @@ body {
   left: 1015px;
   top: 262px;
 
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--list-border-color);
 }
 
 .portfolio-name-3 {
@@ -1057,12 +1030,12 @@ body {
   top: 314px;
 
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 36px;
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .portfolio-tag-3 {
@@ -1073,7 +1046,6 @@ body {
   top: 354px;
 
   font-weight: 400;
-  font-size: 16px;
   line-height: 30px;
 
   letter-spacing: 0.03em;
@@ -1086,7 +1058,7 @@ body {
   left: 215px;
   top: 696px;
 
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--list-border-color);
 }
 
 .portfolio-name-4 {
@@ -1097,12 +1069,12 @@ body {
   top: 314px;
 
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 36px;
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .portfolio-tag-4 {
@@ -1113,7 +1085,6 @@ body {
   top: 354px;
 
   font-weight: 400;
-  font-size: 16px;
   line-height: 30px;
 
   letter-spacing: 0.03em;
@@ -1126,7 +1097,7 @@ body {
   left: 615px;
   top: 696px;
 
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--list-border-color);
 }
 
 .portfolio-name-5 {
@@ -1137,12 +1108,12 @@ body {
   top: 314px;
 
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 36px;
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .portfolio-tag-5 {
@@ -1153,7 +1124,6 @@ body {
   top: 354px;
 
   font-weight: 400;
-  font-size: 16px;
   line-height: 30px;
 
   letter-spacing: 0.03em;
@@ -1166,7 +1136,7 @@ body {
   left: 1015px;
   top: 696px;
 
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--list-border-color);
 }
 
 .portfolio-name-6 {
@@ -1177,12 +1147,12 @@ body {
   top: 314px;
 
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 36px;
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .portfolio-tag-6 {
@@ -1193,7 +1163,6 @@ body {
   top: 354px;
 
   font-weight: 400;
-  font-size: 16px;
   line-height: 30px;
 
   letter-spacing: 0.03em;
@@ -1206,7 +1175,7 @@ body {
   left: 215px;
   top: 1130px;
 
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--list-border-color);
 }
 
 .portfolio-name-7 {
@@ -1217,12 +1186,12 @@ body {
   top: 314px;
 
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 36px;
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .portfolio-tag-7 {
@@ -1233,7 +1202,6 @@ body {
   top: 354px;
 
   font-weight: 400;
-  font-size: 16px;
   line-height: 30px;
 
   letter-spacing: 0.03em;
@@ -1246,7 +1214,7 @@ body {
   left: 615px;
   top: 1130px;
 
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--list-border-color);
 }
 
 .portfolio-name-8 {
@@ -1257,12 +1225,12 @@ body {
   top: 314px;
 
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 36px;
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .portfolio-tag-8 {
@@ -1273,7 +1241,6 @@ body {
   top: 354px;
 
   font-weight: 400;
-  font-size: 16px;
   line-height: 30px;
 
   letter-spacing: 0.03em;
@@ -1286,7 +1253,7 @@ body {
   left: 1015px;
   top: 1130px;
 
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--list-border-color);
 }
 
 .portfolio-name-9 {
@@ -1297,12 +1264,12 @@ body {
   top: 314px;
 
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 36px;
 
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--dark-font-color);
 }
 
 .portfolio-tag-9 {
@@ -1313,7 +1280,6 @@ body {
   top: 354px;
 
   font-weight: 400;
-  font-size: 16px;
   line-height: 30px;
 
   letter-spacing: 0.03em;
